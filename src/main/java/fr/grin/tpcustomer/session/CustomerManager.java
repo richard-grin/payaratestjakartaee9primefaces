@@ -18,11 +18,7 @@ public class CustomerManager {
 
     public List<Customer> getAllCustomers() {
         Query query = em.createNamedQuery("Customer.findAll");
-        System.out.println("Les customers : ");
-        List<Customer> liste = query.getResultList();
-        System.out.println("************liste = " + liste);
-        return liste;
-//        return query.getResultList();
+        return query.getResultList();
     }
 
     public Customer update(Customer customer) {
