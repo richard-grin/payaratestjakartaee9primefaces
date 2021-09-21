@@ -31,22 +31,6 @@ public class Customer implements Serializable {
     private Integer customerId;
     @Column(name = "NAME")
     private String name;
-//    @Column(name = "ADDRESSLINE1")
-//    private String addressline1;
-//    @Column(name = "ADDRESSLINE2")
-//    private String addressline2;
-//    @Column(name = "CITY")
-//    private String city;
-//    @Column(name = "STATE")
-//    private String state;
-//    @Column(name = "PHONE")
-//    private String phone;
-//    @Column(name = "FAX")
-//    private String fax;
-//    @Column(name = "EMAIL")
-//    private String email;
-//    @Column(name = "CREDIT_LIMIT")
-//    private Integer creditLimit;
 
     public Customer() {
     }
@@ -70,70 +54,6 @@ public class Customer implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
-
-//    public String getAddressline1() {
-//        return addressline1;
-//    }
-//
-//    public void setAddressline1(String addressline1) {
-//        this.addressline1 = addressline1;
-//    }
-//
-//    public String getAddressline2() {
-//        return addressline2;
-//    }
-//
-//    public void setAddressline2(String addressline2) {
-//        this.addressline2 = addressline2;
-//    }
-//
-//    public String getCity() {
-//        return city;
-//    }
-//
-//    public void setCity(String city) {
-//        this.city = city;
-//    }
-//
-//    public String getState() {
-//        return state;
-//    }
-//
-//    public void setState(String state) {
-//        this.state = state;
-//    }
-//
-//    public String getPhone() {
-//        return phone;
-//    }
-//
-//    public void setPhone(String phone) {
-//        this.phone = phone;
-//    }
-//
-//    public String getFax() {
-//        return fax;
-//    }
-//
-//    public void setFax(String fax) {
-//        this.fax = fax;
-//    }
-//
-//    public String getEmail() {
-//        return email;
-//    }
-//
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
-//
-//    public Integer getCreditLimit() {
-//        return creditLimit;
-//    }
-//
-//    public void setCreditLimit(Integer creditLimit) {
-//        this.creditLimit = creditLimit;
-//    }
 
     @Override
     public int hashCode() {
